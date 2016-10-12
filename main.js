@@ -4,12 +4,12 @@ function displayTime() {
     d= new Date();
     h= d.getHours();
     m= d.getMinutes();
-    s=d.getSeconds();
+    s= d.getSeconds();
 
-//this adds a zero in front of the sigle digit hour
-    if(h<=9){h = "0"+h};
-    if(h<=9){m = "0"+m};
-    if(h<=9){s = "0"+s};
+//this adds a zero in front of the single digit hour
+    if(h<=9)h = "0" +h;
+    if(m<=9)m = "0" +m;
+    if(s<=9)s = "0" +s;
 
 
 //set color
