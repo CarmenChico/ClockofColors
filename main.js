@@ -7,13 +7,13 @@ function displayTime() {
     s=d.getSeconds();
 
 //this adds a zero in front of the sigle digit hour
-    if(h<=9)h = "0"+h;
-    if(h<=9)m = "0"+m;
-    if(h<=9)s = "0"+s;
+    if(h<=9){h = "0"+h};
+    if(h<=9){m = "0"+m};
+    if(h<=9){s = "0"+s};
 
 
 //set color
-color = "#" + h + m + s;
+color = "#"+h+m+s;
 
 //set the time
 document.body.style.background = color;
