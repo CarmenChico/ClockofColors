@@ -15,14 +15,15 @@ function displayTime() {
 //set color
 color = "#" + h + m + s;
 
-docmument.body.style.background = color;
+//set the time
+document.body.style.background = color;
 
 //set the time
 document.getElementById("hex").innerHTML = color;
 
 
-//time for change the color by the second
-setTimeout(displayTime, 1000);
+//time for change the color by the second. (not setTimeout because timeout tends to have a lag)
+setInterval(displayTime, 1000);
 
 }
 
