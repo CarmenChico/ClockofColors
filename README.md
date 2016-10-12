@@ -15,4 +15,4 @@ The second part was to duplicate a different hex.gif file (see below) and asked 
 
 With this hex image we were challenged to make the background colors change in sequence of seconds, and transition from showing the time, to showing the correlating hex values instead.
 *
-####Here is a link to my [gitHugPages!] (https://carmenchico.github.io/ClocksofColors/)
+####Here is a link to my [gitHugPages!] (https://carmenchico.github.io/ClockofColors/)
