@@ -1,7 +1,7 @@
-/*basic reset*/
+/*take out all colors of the page so it is pure color, none else*/
 * {margin: 0; padding: 0;}
 
-/*make the body occupy full height*/
+/*make the body of the file occupy full height in color*/
 html, body {
   height: 100%;
   font-family: 'Playball', cursive;
@@ -15,9 +15,9 @@ html, body {
 	position: relative;
   top: 50%;
   margin-top: -32px;
-  // -webkit-transition:background 2s;
+  // -webkit-transition:background 2s; tried to make it transition into the colors slowly
 
-	/*center text*/
+	/*center the text*/
 	text-align: center;
 
 }

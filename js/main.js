@@ -18,7 +18,7 @@ color = "#"+h+m+s;
 //set the time
 document.body.style.background = color;
 
-//set the time
+//insets color in the element
 document.getElementById("hex").innerHTML = color;
 
 
